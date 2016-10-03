@@ -1,0 +1,3 @@
+[submodule "src/routing-release"]
+	path = src/routing-release
+	url = https://github.com/cloudfoundry-incubator/routing-release.git

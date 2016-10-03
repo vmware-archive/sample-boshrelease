@@ -1,0 +1,7 @@
+check process sample
+  with pidfile /var/vcap/sys/run/sample/pid
+  start program "/var/vcap/jobs/sample/bin/ctl start"
+    with timeout 100 seconds
+  stop program "/var/vcap/jobs/sample/bin/ctl stop"
+    with timeout 30 seconds
+  group vcap

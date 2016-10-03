@@ -1,0 +1,43 @@
+---
+name: sample
+templates:
+  ctl.erb: bin/ctl
+
+
+packages:
+- openjdk
+- tomcat
+- common
+- sample
+properties:
+  sample.listen_port:
+    description: "Listen Port of the Sample instance"
+    default: 8080
+  sample.memory.min_heap:
+    description: "Min Heap in MB"
+    default: 2048
+  sample.memory.max_heap:
+    description: "Max Heap in MB"
+    default: 2048
+  sample.memory.max_permgen:
+    description: "Max permgen in MB"
+    default: 1024
+
+  sample.password:
+    description: sample password
+  sample.username:
+    description: sample username
+  sample.address:
+    description: sample address
+
+
+  cf.apps_domain:
+    description: Domain shared by the UAA and CF API eg 'bosh-lite.com'
+  cf.nats.host:
+    description: Hostname/IP of NATS
+  cf.nats.port:
+    description: Port that NATS listens on
+  cf.nats.username:
+    description: The user to use when authenticating with NATS
+  cf.nats.password:
+    description: The password to use when authenticating with NATS
