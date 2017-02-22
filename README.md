@@ -34,7 +34,9 @@ bosh create release --with-tarball --version 0.1 --force
 ```
 bosh upload release
 ```
-
+* Upload stemcell (Download latest bosh-lite warden stemcell from bosh.io)
+``` 
+bosh upload stemcell
 * Deploy the manifest if using bosh-lite
 ```
 bosh deployment  sample-manifest.yml
