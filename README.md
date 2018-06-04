@@ -1,3 +1,4 @@
+[This repo is deprecated. Use this example instead https://github.com/cf-platform-eng/pcf-examples](https://github.com/cf-platform-eng/pcf-examples)
 # sample-boshrelease
 
 A sample BOSH Release for Sample Java Hello world Application
