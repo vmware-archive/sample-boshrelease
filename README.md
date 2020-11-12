@@ -1,3 +1,5 @@
+# sample-boshrelease is no longer actively maintained by VMware.
+
 [This repo is deprecated. Use this example instead https://github.com/cf-platform-eng/pcf-examples](https://github.com/cf-platform-eng/pcf-examples)
 # sample-boshrelease
 
